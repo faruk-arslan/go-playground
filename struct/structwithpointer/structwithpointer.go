@@ -20,7 +20,7 @@ func main() {
 	myWatch.brand = "tissot"
 	/**
 	Below change has been reflected to the sheet instance itself, since we used its reference
-	in the specSheet field of the watchWithPointer struct and changed it afterward
+	in the specSheet field of the watchWithPointer struct and changed it afterward.
 	*/
 	myWatch.specSheet.mechanism = "auto"
 	fmt.Println("myWatch after -->", myWatch.brand, myWatch.specSheet.mechanism)

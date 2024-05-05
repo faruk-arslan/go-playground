@@ -22,7 +22,7 @@ func main() {
 	*/
 	myWatch2 := new(watch)
 	fmt.Println(myWatch2)  // Notice the "&" symbol in the log, it means we're holding a reference.
-	fmt.Println(*myWatch2) // Now we see tha value without "&", because it's dereferenced with "*".
+	fmt.Println(*myWatch2) // Now we see the value without "&", because it's dereferenced with "*".
 	myWatch2.brand = "casio"
 	myWatch2.specSheet.mechanism = "quartz"
 	fmt.Println(myWatch2)
